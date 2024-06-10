@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xml:lang="en" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Wallpaper Player</title>
+    <link rel="stylesheet" type="text/css" href="global.css"></link>
+</head>
+<body>
+<div class="container">
+    <h1>Wallpaper Player</h1>
+    <div class="content">
+        <div class="appearance-picker" role="radiogroup" tabindex="0" aria-label="Select a color scheme preference">
+            <label>
+                <input type="radio" value="light" autocomplete="off" onchange="window.setPreferredColorScheme(event.target.value)">
+                <div class="text">Light</div>
+            </label>
+            <label>
+                <input type="radio" value="light" autocomplete="off" onchange="window.setPreferredColorScheme(event.target.value)">
+                <div class="text">Dark</div>
+            </label>
+            <label>
+                <input type="radio" value="light" autocomplete="off" onchange="window.setPreferredColorScheme(event.target.value)">
+                <div class="text">Auto</div>
+            </label>
+        </div>
+    </div>
+    <script async src="appearance.js"></script>
+</div>
+</body>
+</html>

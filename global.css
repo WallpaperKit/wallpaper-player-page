@@ -1,0 +1,20 @@
+.appearance-picker {
+    font-size: 12px;
+    line-height: 1.333337;
+    font-weight: 400;
+    letter-spacing: -0.1em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    border: 1px solid blue;
+    border-radius: 12px;
+    display: inline-flex;
+    padding: 1px;
+}
+
+.content {
+    --toggle-border-radius-outer: 12px;
+    flex-shrink: 0;
+}
+
+div {
+    display: block;
+}
